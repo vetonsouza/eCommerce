@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clone da Amazon</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Menu de Navegação -->
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">Jamaicanas</h1>
+<!-- Formulário de Pesquisa -->
+<form class="search-form" id="search-form">
+  <label for="search-input" class="visually-hidden"></label>
+  <input type="text" id="search-input" placeholder="Pesquisar produtos..." aria-label="Pesquisar produtos" aria-labelledby="search-label">
+  <button type="button" id="search-button">Pesquisar</button>
+</form>
+      <ul class="nav-links">
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Loja</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+        <li>
+          <div class="cart">
+            <img src="Imagens/carrinho de compras.png" alt="Ícone do Carrinho">
+          </div>
+        </li>
+        <li>
+          <button class="login-btn">Login</button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Trilha de Navegação -->
+  <div class="breadcrumbs">
+    <div class="container">
+      <span>Início</span>
+    </div>
+  </div>
+
+ <!-- Carrossel -->
+<div class="carousel-container">
+  <div class="carousel">
+    <button class="carousel-prev"> <<< </button>
+    <div class="carousel-content">
+      <div class="carousel-item">
+        <img src="Imagens/iphone carrossel.jpg" alt="Imagem do Produto 1">
+        <h3>Produto em Destaque 1</h3>
+        <p>Descrição breve do Produto em Destaque 1.</p>
+      </div>
+      <div class="carousel-item">
+        <img src="Imagens/cintia chagas livro.jpg" alt="Imagem do Produto 2">
+        <h3>Produto em Destaque 2</h3>
+        <p>Descrição breve do Produto em Destaque 2.</p>
+      </div>
+      <div class="carousel-item">
+        <img src="Imagens/xbox carrossel.jpg" alt="Imagem do Produto 3">
+        <h3>Produto em Destaque 3</h3>
+        <p>Descrição breve do Produto em Destaque 3.</p>
+      </div>
+    </div>
+    <button class="carousel-next">>>></button>
+  </div>
+</div>
+
+  <!-- Produtos em Destaque -->
+  <section class="featured-products">
+    <div class="container">
+      <h2>Produtos em Destaque</h2>
+      <div class="products">
+        <!-- Os itens de produtos serão adicionados dinamicamente aqui -->
+        <div class="product">
+          <img src="Imagens/celulares.jpg" alt="Celulares">
+          <h3>Celulares</h3>
+          <p>Iphone 14 Pró Max, Samsung Galaxy S23, Moto G14.</p>
+          <p>Xiaomi Redmi Note 12S, Poco Phone C65 e mais. </p>
+        </div>
+        <div class="product">
+          <img src="Imagens/livros.jpg" alt="Livros">
+          <h3>Livros</h3>
+          <p>Dos mais vendidos aos últimos lançamentos</p>
+          <p>eBooks, Kindle e muito mais</p>
+        </div>
+        <div class="product">
+          <img src="Imagens/cuidados pessoais.png" alt="Cuidados Pessoais">
+          <h3>Cuidados Pessoais</h3>
+          <p>Cremes Hidratantes, Shampoos e Condicionadores, Óleos Corporais, Desodorantes, Sabonetes e mais.</p>
+        </div>
+        <div class="product">
+          <img src="Imagens/games e consoles.jpg" alt="Games e consoles">
+          <h3>Games e Consoles</h3>
+          <p>Playstation 5, Xbox Series S, Controles, Periféricos e mais</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Site Map -->
+<div class="sitemap">
+  <div class="container">
+    <ul>
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Loja</a></li>
+      <li><a href="#">Sobre</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+    <div class="footer-info">
+      <p>Direitos Autorais © 2024 Nome da Loja. Todos os direitos reservados.</p>
+      <p>Entre em contato: email@exemplo.com | Telefone: (00) 1234-5678</p>
+      <ul class="social-media">
+        <li><a href="#"><img src="facebook-icon.png" alt="Facebook"></a></li>
+        <li><a href="#"><img src="twitter-icon.png" alt="Twitter"></a></li>
+        <li><a href="#"><img src="instagram-icon.png" alt="Instagram"></a></li>
+        <!-- Adicione mais ícones de redes sociais conforme necessário -->
+      </ul>
+    </div>
+  </div>
+</div>
+
+  <!-- Pop-up de Política de Cookies -->
+  <div class="cookie-popup">
+    <p>Este site usa cookies para garantir que você obtenha a melhor experiência em nosso site. <a href="#">Saiba mais</a></p>
+    <button class="accept-btn">Aceitar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
